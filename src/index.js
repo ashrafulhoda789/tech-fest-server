@@ -7,7 +7,7 @@ import bcrypt from 'bcryptjs';
 const app = express();
 
 app.use(cors({
-	origin: "http://localhost:3000",
+	origin: "https://event-management-client.asrafulhoda789.workers.dev",
 	credentials: true,
 	methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
 	allowedHeaders: ["Content-Type", "Authorization"]
